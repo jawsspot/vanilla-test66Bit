@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+}
+
+.letter{
+    opacity: 0;
+    margin: 5px 0;
+    color: #0b87c0;
+    transition: opacity 2s ease-in;
+}
+.visible {
+     opacity: 2;
+     margin-top: 25px;
+     font-weight: bold;
+     font-size: 35px;
+     text-align: center;
+     -webkit-transition: opacity 2s ease-in;
+     -moz-transition: opacity 2s ease-in;
+     -o-transition: opacity 2s ease-in;
+     -ms-transition: opacity 2s ease-in;
+     transition: opacity 2s ease-in;
+}
